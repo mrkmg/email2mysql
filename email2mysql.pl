@@ -70,4 +70,3 @@ $sql = $sql . " (sender, subject, description) VALUES (?, ?, ?)";
 my $dbh = $db->prepare($sql);
 $dbh->execute($from,$subject,$msg);
 $db->disconnect;
-
