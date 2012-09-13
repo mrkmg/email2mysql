@@ -14,3 +14,13 @@ To use this script, first replace the following items in the script:
 - _\_PASSWORD __ The password of the MySQL user
 
 Place the script on your server and make sure it is accessible and executable by you MTA. Set your MTA to pipe incoming emails to this script. That should be all that is needed.
+
+Requirements
+============
+
+You must have perl installed and the following modules installed:
+
+- DBI
+- Email::MIME
+- Email::Address
+- HTML::Strip
